@@ -15,6 +15,13 @@
 
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.30</version> <!-- Update to latest version -->
+			<scope>provided</scope>
+		</dependency>
 		<!--
 		https://mvnrepository.com/artifact/com.microsoft.playwright/playwright -->
 		<dependency>
@@ -61,7 +68,7 @@
 			<version>2.21.0</version>
 		</dependency>
 
-     <!--  Extent report
+		<!--  Extent report
 		<dependency>
 			<groupId>tech.grasshopper</groupId>
 			<artifactId>extentreports-cucumber7-adapter</artifactId>
